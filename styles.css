@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.col,
+.row {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+#intro {
+  background: darkorange;
+  min-height: 80px;
+}
+
+#sidebar {
+  background: darkorchid;
+  min-height: 80px;
+}
+
+#main {
+  min-height: 80px;
+}
+
+#main .row:nth-child(1) {
+  background: darkslategray;
+}
+
+#main .row:nth-child(2) {
+  background: darkseagreen;
+}
+
+.block {
+  flex: 1;
+  margin: 10px;
+  background: black;
+  min-height: 40px;
+}
